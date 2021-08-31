@@ -8,7 +8,7 @@ body {
     border-radius: 5px;
     list-style-type: none;
     margin: 0;
-    padding: o;
+    padding: 0;
     overflow: hidden;
     background-color: rgb(165, 45, 70);
   }
@@ -19,7 +19,7 @@ body {
 
   li.linav a{
     display: block;
-    color: rgb(0, 255, 235);
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -27,7 +27,7 @@ body {
 
   li.linav a.active{
     display: block;
-    color: rgb(0, 255, 235);
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -35,4 +35,30 @@ body {
 
   li.linav a:hover{
     background-color: rgb(235, 15, 45);
+  }
+
+  span.subtitle{
+    font-size: 10pt;
+    color: #ffffff;
+    font-family: verdana;
+  }
+
+  span.maintitle{
+    font-size: 20pt;
+    color: #ffffff;
+    font-family: verdana;
+  }
+
+  a.nav{
+    font-size: 9pt;
+    color: #ffffff;
+    font-family: verdana;
+    text-decoration: none;
+  }
+
+  a.nav:hover{
+    font-size: 11pt;
+    color: #d4d4d4;
+    font-family: verdana;
+    text-decoration: none;
   }
