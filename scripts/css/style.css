@@ -62,3 +62,12 @@ body {
     font-family: verdana;
     text-decoration: none;
   }
+
+  #page_wrapper{
+    border-radius: 5px;
+    border: 2px solid #333333;
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+    background: rgb(102, 102, 102, 0.85);
+  }
