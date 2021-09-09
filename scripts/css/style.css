@@ -103,14 +103,23 @@ body {
     border-radius: 20px;
     color: rgb(255, 255, 255);
   }
+  
   table.tbl-1{
     width: 100%;
     padding: 10px;
   }
+  
   td.td-1{
     width: 25%;
     padding: 12px;
   }
+  
   h1.center{
     text-align: center;
+  }
+  
+  #spacing{
+    padding-left: 60px;
+    padding-right: 60px;
+    font-family: verdana;
   }
