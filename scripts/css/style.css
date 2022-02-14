@@ -121,9 +121,8 @@ body {
   .container1 {
     font-family: arial;
     font-size: 24px;
-    width: 350px;
+    width: 250px;
     height: 200px;
-    outline: dashed 1px black;
     float: left;
     margin-top: 20%;
     margin-left: 3%;
@@ -131,4 +130,41 @@ body {
   p {
     /* Center horizontally*/
     text-align: center;
+  }
+
+  #td {
+    padding: 20px;
+  }
+
+  #table {
+    margin-top: 20px;
+  }
+
+  #devs {
+    text-align: left;
+    text-decoration: underline;
+    font-size: 50;
+    margin-left: 150px;
+  }
+
+  #td2 {
+    padding: 20px;
+  }
+
+  #devs2 {
+    text-align: right;
+    text-decoration: underline;
+    font-size: 50;
+    margin-left: 150px;
+  }
+
+  #return {
+    font: 20;
+    text-decoration: none;
+    color: #000000;
+  }
+
+  #returndiv {
+    border: #000000;
+    border-width: 5px;
   }
